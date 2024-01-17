@@ -180,15 +180,18 @@
             <div class="interface">
                 <h2 class="titulo" id="formulario">FALE <span>COMIGO.</span></h2>
 
-                <form method="post" action="./forms.php">
-                    <input type="text" name="nome" id="" placeholder="Seu nome completo:" required>
-                    <input type="text" name="email" id="" placeholder="Seu e-mail:" required>
-                    <input type="text" name="celular" id="" placeholder="Seu celular:">
-                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem:" required></textarea>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="text" name="name" id="" placeholder="Seu nome completo:" autocomplete="off" required>
+                    <input type="email" name="email" id="" placeholder="Seu e-mail:" autocomplete="off" required>
+                    <input type="number" name="phone" id="" placeholder="Seu celular:" autocomplete="off">
+                    <textarea name="message" id="mensagem" placeholder="Sua mensagem:" autocomplete="off" required></textarea>
                     <div class="btn-enviar">
-                        <input type="submit" value="ENVIAR">
+                        <input type="submit" value="ENVIAR">                        
                     </div>
 
+
+                    <input type="hidden" name="accessKey" value="77c9ef98-17ef-4a65-bf5e-410e48a121eb">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
                 </form>
             </div> <!--interface-->
         </section> <!--formulario-->
