@@ -211,6 +211,8 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box p{
     text-align: justify;
+    max-width: 300px;
+    max-height: 353px;
 }
 
 .especialidades .especialidades-box{
