@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+
+    text-decoration: none;
+    list-style: none;
 }
 
 body{
@@ -393,6 +396,22 @@ form .btn-enviar input:hover{
     color: white;
     box-shadow: 0px 0px 18px rgba(132, 0, 255, 0.603);
     transform: scale(1.05);
+}
+
+.btn-vermais{
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(132, 0, 255);
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    margin: 40px auto 0;
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
 }
 
 /* ESTILO DO RODAPÉ */
